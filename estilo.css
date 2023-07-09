@@ -1,0 +1,113 @@
+body{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.pratos{
+    width: 20%;
+    padding: 3px solid black;
+    display: inline-block;
+}
+
+.container img{
+    max-width: 500px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    border: 4px solid black;
+    border-radius: 1em;
+}
+    
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.navbar-title {
+    margin-left: 10px;
+}
+
+h2{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:rgb(151, 72, 19);
+    text-shadow: 1px 1px 4px #000000;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 4px #000000;
+    /*text-shadow: 0 0 5px rgba(0, 0, 0, 0.534);*/
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-shadow: 0 0 0.5px rgb(255, 255, 255);
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 0 0 1px rgb(5, 5, 5);
+    text-align: justify;
+}
+
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: rgba(245, 242, 242, 242);
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;  
+    background:rgb(202, 92, 92);
+    z-index:1;
+}
+
+.title-style {
+    padding: 10px;
+    text-align: center;
+    justify-content:space-between;  
+    background:rgb(151, 72, 19);
+    z-index:1;
+}
+
+.cardapio-item-impar {
+    display:flex;
+    margin-left:170px;
+    margin-right:170px;
+    margin-top:70px;
+}
+
+.cardapio-item-texto-impar {
+    text-align:center;
+    width:600px;
+    margin-left:40px;
+}
+
+.cardapio-item-texto-impar p{
+    font-size:20px;
+}
+
+.cardapio-item-par {
+    display:flex;
+    margin-left:170px;
+    margin-right:170px;
+    margin-top:140px;
+}
+
+.cardapio-item-texto-par {
+    width:600px;
+    margin-right:20px;
+}
+
+.cardapio-item-texto-par p {
+    font-size:20px;
+}
+.centralizado {
+    text-align:center;
+}
